@@ -48,8 +48,6 @@ hoverZoomPlugins.push({
       post.find('a.thumbnail,a.title').each(function() {
         var img = $(this);
 
-        // Use /DASH_600_K as a default if for any reason the ajax request below doesn't find a valid link
-        img.data('hoverZoomSrc', [link + '/DASH_600_K']);
         img.data('hoverZoomCaption', [title]);
 
         promises.push(new Promise(function (resolve, reject) {
@@ -62,9 +60,9 @@ hoverZoomPlugins.push({
                 })
                 .find(function (repr) { return !!repr.querySelector('BaseURL'); });
 
-              if (highestRes) {
-                img.data('hoverZoomSrc', [link + '/' + highestRes.querySelector('BaseURL').textContent.trim()]);
-              }
+              img.data('hoverZoomSrc', [link + '/' + (highestRes
+                ? highestRes.querySelector('BaseURL').textContent.trim()
+                : 'DASH_600_K')]);
 
               var audio = xmlDoc.querySelector('Representation[mimeType^="audio"'),
                 audioUrl = audio ? audio.querySelector('BaseURL') : undefined;
