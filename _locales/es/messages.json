@@ -51,6 +51,10 @@
         "message": "Guardar",
         "description": "[options] Save button label"
     },
+    "optButtonCancel": {
+        "message": "Cancelar",
+        "description": "[options] Cancel button label"
+    },
     "optButtonReset": {
         "message": "Resetear",
         "description": "[options] Reset button label"
@@ -211,6 +215,30 @@
         "message": "Crear un sutil efecto de brillo similar a la de Philips tecnología Ambilight",
         "description": "[options] Tooltip for enable ambient light behind images option"
     },
+    "optAmbilightHaloSize": {
+        "message": "Tamaño del brillo :",
+        "description": "[options] Size of halo option"
+    },
+    "optAmbilightHaloSizeUnitName": {
+        "message": "pixeles",
+        "description": "[options] Unit name (pixel) for halo size"
+    },
+    "optAmbilightHaloSizeTooltip": {
+        "message": "Tamaño del brillo alrededor de la imagen engrandecida (0% : no hay halo)",
+        "description": "[options] Tooltip for size of halo"
+    },
+    "optAmbilightBackgroundOpacity": {
+        "message": "Opacidad de fondo :",
+        "description": "[options] Background opacity option"
+    },
+    "optAmbilightBackgroundOpacityUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for background opacity"
+    },
+    "optAmbilightBackgroundOpacityTooltip": {
+        "message": "0% : transparente, 100% : negro",
+        "description": "[options] Tooltip for background opacity"
+    },
     "optCenterImages": {
         "message": "Centrar imágenes",
         "description": "[options] Center images in the middle of the page option"
@@ -338,6 +366,38 @@
     "optOpacityUnitName": {
         "message": "%",
         "description": "[options] Unit name (percentage) for opacity option"
+    },
+    "optUseSeparateTabOrWindowForUnloadableUrlsTooltip": {
+        "message": "Útil para sitios HTTPS como imágenes de Google que impiden la carga de imágenes HTTP",
+        "description": "[options] Tooltip for using separate tab or window for unloadable urls option"
+    },
+    "optUseSeparateTabOrWindowForUnloadableUrls": {
+        "message": "Intentar abrir urls con errores en ventana o pestaña distincta:",
+        "description": "[options] Use separate tab or window for unloadable urls option"
+    },
+    "optUseSeparateTabForUnloadableUrls": {
+        "message": "Pestaña",
+        "description": "[options] Use separate tab for unloadable urls option"
+    },
+    "optUseSeparateWindowForUnloadableUrls": {
+        "message": "Ventana",
+        "description": "[options] Use separate window for unloadable urls option"
+    },
+    "optDownloadFolderTooltip": {
+        "message": "Subcarpeta(s) se crearán si es necesario",
+        "description": "[options] Tooltip for download folder option"
+    },
+    "optDownloadFolderPlaceholder": {
+        "message": "Ejemplo: animales/gatos",
+        "description": "[options] Placeholder for download folder option"
+    },
+    "optDownloadFolder": {
+        "message": "Guardar imágenes en carpeta: Descargas/",
+        "description": "[options] Download folder option"
+    },
+    "optPixelsUnitName": {
+        "message": "pixels",
+        "description": "[options] Unit name (pixels)"
     },
     "optActionKeyTitle": {
         "message": "Activar Hover Zoom+",

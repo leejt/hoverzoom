@@ -51,6 +51,10 @@
         "message": "Mentés",
         "description": "[options] Save button label"
     },
+    "optButtonCancel": {
+        "message": "Mégse",
+        "description": "[options] Cancel button label"
+    },
     "optButtonReset": {
         "message": "Alaphelyzet",
         "description": "[options] Reset button label"
@@ -208,8 +212,32 @@
         "description": "[options] Enable ambient light behind images option"
     },
     "optEnableAmbilightTooltip": {
-        "message": "Hozzon létre egy finom fényhatást, mint a Philips Ambient Technológiá-ban",
+        "message": "Hozzon létre egy finom fényhatást, mint a Philips Ambient technológiában",
         "description": "[options] Tooltip for enable ambient light behind images option"
+    },
+    "optAmbilightHaloSize": {
+        "message": "Halo mérete:",
+        "description": "[options] Size of halo option"
+    },
+    "optAmbilightHaloSizeUnitName": {
+        "message": "pixel",
+        "description": "[options] Unit name (pixel) for halo size"
+    },
+    "optAmbilightHaloSizeTooltip": {
+        "message": "Halo mérete a benagyított kép körül (0%: halo letiltása)",
+        "description": "[options] Tooltip for size of halo"
+    },
+    "optAmbilightBackgroundOpacity": {
+        "message": "Háttér átlátszóság:",
+        "description": "[options] Background opacity option"
+    },
+    "optAmbilightBackgroundOpacityUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for background opacity"
+    },
+    "optAmbilightBackgroundOpacityTooltip": {
+        "message": "0%: átlátszó, 100%: fekete",
+        "description": "[options] Tooltip for background opacity"
     },
     "optCenterImages": {
         "message": "Képek elhelyezése az oldal közepén",
@@ -338,6 +366,38 @@
     "optOpacityUnitName": {
         "message": "%",
         "description": "[options] Unit name (percentage) for opacity option"
+    },
+    "optUseSeparateTabOrWindowForUnloadableUrlsTooltip": {
+        "message": "Hasznos olyan HTTPS weboldalakon mint például a Google Fotók, amelyek nem engedélyezik HTTP képek betöltését",
+        "description": "[options] Tooltip for using separate tab or window for unloadable urls option"
+    },
+    "optUseSeparateTabOrWindowForUnloadableUrls": {
+        "message": "Nem betölthető URL-ek különbe betöltése:",
+        "description": "[options] Use separate tab or window for unloadable urls option"
+    },
+    "optUseSeparateTabForUnloadableUrls": {
+        "message": "Lap",
+        "description": "[options] Use separate tab for unloadable urls option"
+    },
+    "optUseSeparateWindowForUnloadableUrls": {
+        "message": "Ablak",
+        "description": "[options] Use separate window for unloadable urls option"
+    },
+    "optDownloadFolderTooltip": {
+        "message": "Almappá(k) létre lesznek hozva, ha szükséges",
+        "description": "[options] Tooltip for download folder option"
+    },
+    "optDownloadFolderPlaceholder": {
+        "message": "Pálda: állatok/macskák",
+        "description": "[options] Placeholder for download folder option"
+    },
+    "optDownloadFolder": {
+        "message": "Képek mentése mappába: Letöltések/",
+        "description": "[options] Download folder option"
+    },
+    "optPixelsUnitName": {
+        "message": "pixel",
+        "description": "[options] Unit name (pixels)"
     },
     "optActionKeyTitle": {
         "message": "Hover Zoom+ aktiválása",
